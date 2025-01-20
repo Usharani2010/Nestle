@@ -14,12 +14,14 @@ body {
 .menu-bar{
     display:flex;
     align-items:center;
-    justify-content: center;
+    margin:0 20%;
+    justify-content: end;
 }
 .menu-bar ul li{
     color: #000000;
     display: inline-block;
     list-style: none;
+    padding:0 20px;
 }
 .switch {
     position:relative;
@@ -104,6 +106,7 @@ body {
     float: right;
     cursor: pointer;
     align-items: center;
+    justify-content: center;
   }
   .sm button{
     border-style: none;
@@ -111,17 +114,33 @@ body {
   #search{
     margin-left: 40%;
   }
+  .pagebar{
+    display:inline-flex;
+    position:relative;
+    align-items: center;
+    margin: 20px;
+    height:20px;
+  } 
+  .pagebar button{
+    border-style: none;
+    font-size: medium;
+    background-color: transparent;
+  }
+  .pagebar li{
+    display: inline;
+    margin-inline: 10px;
+  }
   .slides{
     text-align: center;
     position: relative;
-
   }
-  .slides img{   
-    width:100%;
+  .slides img{  
+    width:100vw;
   }
   .slides p{
-   
+    line-height:35px;
     text-align: center;
     font-size:25px;
+    margin:10px;
   }
   
