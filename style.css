@@ -188,9 +188,9 @@ body {
   width: 100%;
   height: auto;
 }
-.card-text {
-  text-align: left;
+.card-text { 
   line-height: 25px;
+  text-align: left;
   padding: 20px;
 }
 .card-text h3 {
